@@ -1,0 +1,9 @@
+# Core research prototype dependencies (not a fully pinned lockfile)
+# Python 3.11 tested. Install appropriate CPU/CUDA PyTorch separately if needed.
+numpy
+rasterio
+Pillow
+matplotlib
+scipy
+torch
+# pandas is intentionally optional: Windows Smart App Control blocked its native extension.

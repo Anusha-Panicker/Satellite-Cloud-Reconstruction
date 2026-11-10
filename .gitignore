@@ -1,23 +1,31 @@
-
+# Environment and editor
 .venv/
 venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 .ipynb_checkpoints/
+.vscode/
+.DS_Store
 
+# Raw licensed satellite data, derived patches and outputs
 data/raw/
 data/processed/
 outputs/
 
+# Large model/data artifacts (do not upload by default)
 *.tif
 *.tiff
 *.npy
 *.npz
+*.pt
+*.pth
+*.ckpt
 *.zip
 
+# Local credentials and temporary packaging
 .env
 .env.*
 !.env.example
-
-.vscode/
-.DS_Store
+.repo_update_backups/
+github_update_pack/
