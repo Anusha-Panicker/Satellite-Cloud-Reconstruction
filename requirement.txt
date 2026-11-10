@@ -1,9 +1,0 @@
-# Satellite Cloud Reconstruction - Mumbai prototype
-# Dependencies for the current satellite data preparation and review scripts.
-# Add deep learning dependencies once the model framework is selected.
-numpy
-rasterio
-matplotlib
-Pillow
-pandas
-scipy
